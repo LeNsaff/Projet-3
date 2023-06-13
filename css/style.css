@@ -12,8 +12,8 @@ body{
     justify-content: center;
     max-width: 1440px;
     min-width: 320px;
-
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 /* header */
@@ -38,21 +38,16 @@ header{
 .toplink{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    width: 20%;
 }
 
 .toptxt{
-    margin-left: 30px;
+    width: 100%;
     color: #000000;
     text-decoration:none;
     font-family: 'Raleway';
-    text-align: center
-}
-
-.topunder{
-    visibility: hidden;
-    width: 400px;
-    margin-top: 20px;
-    color: #F2F2F2;
+    /* text-align: center; */
 }
 
 .container{
@@ -83,6 +78,7 @@ header{
     height: auto;
     display: flex;
     flex-direction: row;
+    font-size: 15;
 }
 
 .fa-location-dot{
@@ -171,7 +167,7 @@ button{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 21px;
     border: 2px solid #D9D9D9;
     border-radius: 25px;
@@ -304,9 +300,10 @@ main{
 .listhTitre{
     height: 40%;
     display: flex;
+    font-size: 10;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0px 10px;
+    padding: 10px 10px;
 }
 
 .listhTitreH2{
@@ -381,7 +378,7 @@ aside{
     display: flex;
     flex-direction: column;
     height: 80%;
-    gap: 50px;
+    gap: 20px;
 }
 
 .asidePopH{
@@ -391,6 +388,7 @@ aside{
     text-decoration: none;
     object-fit: fill;
     width: 99%;
+    height: 100px;
     border-radius: 20px 20px 20px 20px;
     border-width: 5px 0px 5px 5px;
     border-style: solid;
@@ -401,7 +399,7 @@ aside{
 .popH{
     object-fit: fill;
     width: 40%;
-    height: 100%;
+    height: 150px;
     border-radius: 20px 0px 0px 20px;
 }
 
@@ -411,6 +409,8 @@ aside{
     justify-content: space-around;
     flex-wrap: nowrap;
     margin-left: 5%;
+    /* height: 150px; */
+    font-size: 10;
     color: #000000;
 }
 
@@ -428,6 +428,7 @@ aside{
     justify-content: center;
     margin-top: 30px;
     width: 100%;
+    /* height: auto; */
     box-sizing: content-box;
     padding: 30px;
 }
@@ -543,7 +544,6 @@ button:hover{
         flex-direction: column;
         width: 100%;
         box-sizing: content-box;
-        padding: 30px;
     }
     
     .asideH {
@@ -570,7 +570,7 @@ button:hover{
         width: 100%;
         height: auto;
         text-align: center;
-        padding: 30px;
+        padding: 10px;
         gap: 15%;
     }
 }
@@ -602,6 +602,10 @@ button:hover{
         margin-top: 20px;
     }
 
+    .toptxt{
+        text-align: center;
+    }
+
 
     /*herbergement a Marseille*/
 
@@ -611,7 +615,7 @@ button:hover{
         width: 100%;
         padding: 30px;
         margin-top: 30px;
-        z-index: 0;
+        /* z-index: 0; */
     }
    
     .sch{
@@ -646,6 +650,7 @@ button:hover{
     .BtnCtn{
         /* justify-content: space-around; */
         gap: 0px;
+        margin-left: 10%;
     }
 
     .BtnCtn2{
@@ -693,8 +698,7 @@ button:hover{
     .hebergementctn{
         padding: 0 0 0;
         width: 95%;
-        height: 300px
-        box-sizing: content-box;
+        height: 300;
         border-color: #F2F2F2;
     }
 
@@ -703,15 +707,15 @@ button:hover{
     }
 
     aside{
-        gap: 15px;
+        /* gap: 15px; */
         flex-direction: column;
         box-sizing: content-box;
-        padding: 30px 10px 100px;
-        /* height: 12%; */
+        padding-bottom: 100;
+        margin-left: -5%;
     }
 
     .asidePopH{
-        height: 200px;
+        height: 150px;
     }
 
     .asideH{
@@ -724,7 +728,9 @@ button:hover{
 
     .main2{
         padding: 30px;
-        height: auto;
+        /* height: auto; */
+        gap: 0;
+        justify-content: space-evenly;
     }
 
     .act{
@@ -741,8 +747,9 @@ button:hover{
     .listAct{
         flex-direction: column;
         height: 100%;
-        justify-content: space-around;
+        justify-content: space-evenly;
         box-sizing: content-box;
+        gap: 0;
     }
     
     footer{
@@ -751,16 +758,17 @@ button:hover{
         width: 100%;
         height: auto;
         text-align: center;
-        padding: 30px;
-        /* margin-top: -550px; */
+        /* padding: 30px; */
     }
 
     .topunder{
         visibility: visible;
     }
 
-    .topunder:hover{
-        color: #0065FC;
+    .toptxt:hover{
+        color: #DEEBFF;
+        text-decoration: underline;
+        text-underline-offset: 20px;
     }
 
 }
