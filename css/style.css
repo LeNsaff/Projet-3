@@ -26,6 +26,11 @@ ul{
     list-style-type: none;
 }
 
+.link{
+    text-decoration: none;
+    color: #000000;
+}
+
 /* header */
 
 header{
@@ -51,6 +56,16 @@ header{
     justify-content: space-around;
     width: 20%;
     gap: 15px;
+}
+
+.TopTextCtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.TopTextCtn:hover{
+    color: #DEEBFF;
 }
 
 .toptxt{
@@ -168,6 +183,7 @@ header{
     width: auto;
     height: auto;
     gap: 15px;
+    margin-top: 20px;
 }
 
 button{
@@ -198,10 +214,15 @@ button{
     display: flex;
     flex-direction: row;
     gap: 15px;
+    /* width: 50%; */
 }
 
 .fa-star{
     color: #0065FC;
+}
+
+.grey{
+    color: #F2F2F2;
 }
 
 .fa-money-bill-wave,
@@ -388,18 +409,17 @@ aside{
     margin-top: -50px;
     display: flex;
     flex-direction: column;
-    height: auto;
-    gap: 30px;
+    gap: 20px;
 }
 
 .asidePopH{
     display: flex;
-    flex-direction: row;
     flex-wrap: nowrap;
+    flex-direction: row;
     text-decoration: none;
     object-fit: fill;
     width: 99%;
-    height: 150px;
+    height: 130px;
     border-radius: 20px 20px 20px 20px;
     border-width: 5px 0px 5px 5px;
     border-style: solid;
@@ -508,9 +528,7 @@ button:hover{
     background: #DEEBFF;
 }
 
-.toptxt:hover{
-    color: #DEEBFF;
-}
+
 
 /* media query tablette */
 
@@ -556,7 +574,7 @@ button:hover{
 
     aside{
         flex-direction: column;
-        width: 97%;
+        width: 98%;
         box-sizing: content-box;
     }
     
@@ -572,6 +590,7 @@ button:hover{
 
     .asidePopH{
         height: 99%;
+        width: 100%;
     }
 
     /*activite a Marseille*/
@@ -611,6 +630,11 @@ button:hover{
         margin-left: 50%;
     }
 
+    .TopTextCtn:hover{
+        border-bottom: solid #0065FC 2px ;
+        width: 100%;
+    }
+
     .toplink{
         width: 100%;
         justify-content: space-evenly;
@@ -620,6 +644,7 @@ button:hover{
 
     .toptxt{
         text-align: center;
+        margin-bottom: 30px;
     }
 
 
@@ -638,6 +663,8 @@ button:hover{
         width: auto;
         justify-content: center;
         padding: 30;
+        width: 65%;
+        margin-left: 10%;
     } 
 
     .fa-location-dot{
@@ -726,11 +753,12 @@ button:hover{
     }
 
     aside{
-        gap: 30px;
+        gap: 40px;
         flex-direction: column;
         box-sizing: content-box;
         padding-bottom: 100;
         margin-left: -5%;
+        height: auto;
     }
 
     .asidePopH{
@@ -743,6 +771,7 @@ button:hover{
 
     .asideList{
         flex-direction: column;
+        gap: 40px;
     }
 
     .main2{
@@ -753,14 +782,13 @@ button:hover{
     }
 
     .act{
-        height: 90%;
+    height: 300px;
     }
 
     .actCtn{
         width: 95%;
         padding: 0 5 20;
         text-align: left;
-        height: 15%;
     }
 
     .listAct{
@@ -768,7 +796,7 @@ button:hover{
         height: 100%;
         justify-content: space-evenly;
         box-sizing: content-box;
-        gap: 0;
+        gap: 30px;
     }
     
     footer{
@@ -784,10 +812,5 @@ button:hover{
         visibility: visible;
     }
 
-    .toptxt:hover{
-        color: #DEEBFF;
-        text-decoration: underline;
-        text-underline-offset: 20px;
-    }
 
 }
