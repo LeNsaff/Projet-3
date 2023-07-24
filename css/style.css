@@ -186,11 +186,11 @@ header{
     margin-top: 20px;
 }
 
-button{
+.button{
     width: auto;
     display: flex;
     flex-direction: row;
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -199,22 +199,22 @@ button{
     border: 2px solid #D9D9D9;
     border-radius: 25px;
     color: #000000;
-    gap: 10px;
+    /* gap: 10px; */
     padding: 10px;
 }
 
 .BtnCtn{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 15px;
 }
 
 .BtnCtn2{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     gap: 15px;
-    /* width: 50%; */
 }
 
 .fa-star{
@@ -230,13 +230,13 @@ button{
 .fa-heart,
 .fa-fire{
     color: #0065FC;
-    margin: auto;
+    margin: 0 10% 0 10%;
     display: flex;
 }
 
 .filtresTxt{
-    margin: auto;
-    text-align: center;
+    margin: 0 auto 0 0;
+    /* text-align: center; */
 }
 
 .disclaim{
@@ -455,7 +455,7 @@ aside{
 
 /* Activité */
 
-.main2{
+.ActiviteMarseil{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -516,6 +516,12 @@ footer{
     text-align: left;
 }
 
+.titrefooter{
+    font-family: 'Raleway';
+    font-size: 20;
+    font-weight: 700;
+}
+
 .footerTxt{
     color: #000000;
     text-decoration: none;
@@ -524,7 +530,7 @@ footer{
 
 /* hover */
 
-button:hover{
+.button:hover{
     background: #DEEBFF;
 }
 
@@ -551,10 +557,11 @@ button:hover{
         width: 70%;
         flex-direction: row;
         justify-content: space-evenly;
+        gap: 0;
     }
 
     .BtnCtn2{
-        justify-content: space-evenly;
+        justify-content: space-around;
     }
 
     /*hebergement a Marseille*/
@@ -607,6 +614,7 @@ button:hover{
         padding: 10px;
         gap: 15%;
     }
+    
 }
 
 
@@ -711,12 +719,13 @@ button:hover{
     justify-content: end;
     }
 
-    button{
-        height: 100%;
-        width: 100%;
+    .button{
+        /* height: 100%; */
+        /* width: 100%; */
         justify-content: space-around;
-        gap: 0;
+        /* gap: 0; */
         font-size: 25;
+        margin-left: 0 !important;
     }
     
     .mainctn{
@@ -774,7 +783,7 @@ button:hover{
         gap: 40px;
     }
 
-    .main2{
+    .ActiviteMarseil{
         padding: 0;
         /* height: auto; */
         gap: 0;
