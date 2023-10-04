@@ -57,7 +57,7 @@ header{
 nav{
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 15px;
 }
 
 .intro{
@@ -132,25 +132,27 @@ nav{
 .filtre{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 15px;
+    margin-top: 20px;    
 }
 
 .filtrelist1{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 15px;
+
 }
 
 .filtrelist{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 15px;
 }
 
 .filtrebtn{
     display: flex;
     flex-direction: row;
-    width: 173px;
+    width: 160px;
     height: 50px;
     border-radius: 25px;
     border: 2px;
@@ -186,6 +188,7 @@ main{
     display: flex;
     flex-direction: row;
     width: 100%;
+    margin-top: 10px;
 }
 
 .hebergementctn{
@@ -197,19 +200,25 @@ main{
     gap: 10px;
 }
 
+.hebergementtitre{
+    font-size: 20px;
+    margin: 30px auto 20px 10px;
+}
+
 .hebergementlist{
     display: flex;
     flex-direction: row;
     gap: 20px;
     width: 100%;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .cartehebergement{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 30%;
+    width: 29%;
     height: auto;
     gap: 0;
     margin: auto;
@@ -225,12 +234,17 @@ main{
 
 .hebergementtxt{
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 5px;
 }
 
 .starcount{
     display: flex;
     flex-direction: row;
     color: #0065FC;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.grey{
+    color: #F2F2F2;
 }

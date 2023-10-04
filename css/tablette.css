@@ -12,4 +12,13 @@
     .filtrelist{
         gap: 10px;
     }
+
+    /*main*/
+    main{
+        flex-direction: column;
+    }
+
+    .hebergementctn{
+        width: 100%;
+    }
 }
