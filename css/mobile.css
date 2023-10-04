@@ -1,0 +1,79 @@
+@media screen and (max-width: 768px){
+    header{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .logo{
+        margin: auto;
+    }
+
+    .lienctn{
+        border-bottom: solid #F2F2F2;
+        text-align: center;
+        width: 100%;
+    }
+
+    .lienctn:hover{
+        border-bottom: solid #0065FC 2px ;
+        border-top: 0px;  
+        width: 100%;  
+        color: #0065FC;
+    }
+
+    .lientop{
+        width: 100%;
+        padding: 0%;
+        font-size: 20px;
+    }
+
+    .titre{
+        line-height: 25px;
+    }
+
+    .centre-ville{
+        line-height: 19px;
+    }
+
+    .searchbar{
+        margin: auto;
+        justify-content: center;
+        width: 335px;
+    }
+
+    .filtre{
+        flex-direction: column;
+    }
+
+    .filtrelist1{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+    }
+
+    .filtrelist{
+        gap: 10px;
+    }
+
+    .filtrebtn{
+        width: 100%;
+    }
+
+    .schinput{
+        width: 80%;
+    }
+
+    .schbtn{
+        width: 49px;
+    }
+
+    .schbtn1{
+        display: none;
+    }
+
+    .schbtn2{
+        display: flex;
+        padding: auto;
+    }
+}
