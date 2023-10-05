@@ -97,9 +97,27 @@
         width: 90%;
     }
 
+    /*les plus populaires*/
+
     .poplist{
         flex-direction: column;
     }
 
+    /*activite a marseille*/
+
+    .actlist{
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .carteact{
+        width: 90%;
+        margin: 0 auto 0 auto;
+    }
     
+    .actimg{
+        height: 141px;
+    }
+
 }

@@ -22,6 +22,8 @@
         width: 100%;
     }
 
+    /*les plus pop*/
+
     aside{
         width: 100%;
     }
@@ -34,5 +36,15 @@
 
     .cartepop{
         width: 100%;
+    }
+
+    /*activite a marseille*/
+    
+    .actasset{
+        height: 60px;
+    }
+
+    .actimg{
+        height: 200px;
     }
 }
