@@ -21,6 +21,7 @@ body{
     max-width: 1440px;
     min-width: 320px;
     overflow-x: hidden;
+    gap: 30px;
 }
 
 /*header*/
@@ -337,4 +338,35 @@ aside{
 .actasset{
     display: flex;
     justify-content: left;
+}
+
+/*footer*/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+    width: 98%;
+    margin: 30px auto auto auto;
+    gap: 15%;
+}
+
+.listctn{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerlist{
+    list-style: none;
+    font-family: 'Raleway';
+    gap: 0px;
+}
+
+.listlink{
+    margin-bottom: 20px; 
+}
+
+.titrefooter{
+    margin-left: 40px;
+    margin-bottom: 0;
 }
