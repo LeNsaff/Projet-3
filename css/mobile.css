@@ -76,4 +76,27 @@
         display: flex;
         padding: auto;
     }
+
+    /*main*/
+
+    main{
+        flex-direction: column-reverse;
+    }
+
+    .hebergementctn{
+        background-color: white;        
+    }
+
+    .hebergementlist{
+        flex-direction: column;
+
+    }
+
+    .cartehebergement{
+        width: 90%;
+    }
+
+    .poplist{
+        flex-direction: column;
+    }
 }
