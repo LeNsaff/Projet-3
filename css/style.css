@@ -17,7 +17,7 @@ a{
 }
 
 body{
-    margin: 10px;
+    margin: 10px auto auto auto;
     max-width: 1440px;
     min-width: 320px;
     overflow-x: hidden;
@@ -42,7 +42,7 @@ header{
     flex-direction: row;
     justify-content: space-evenly;
     font-family: 'Raleway';
-    gap: 10px;
+    gap: 70px;
     list-style: none;
     margin-top: 0;
 }
@@ -148,6 +148,10 @@ nav{
     display: flex;
     flex-direction: row;
     gap: 15px;
+}
+
+.filtretxt{
+    margin: auto 0 auto 0;
 }
 
 .filtrebtn{
