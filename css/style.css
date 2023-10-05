@@ -198,7 +198,7 @@ main{
     background-color: #F2F2F2;    
     border-radius: 20px;
     width: 75%;
-    gap: 10px;
+    gap: 0px;
 }
 
 .hebergementtitre{
@@ -225,6 +225,7 @@ main{
     margin: auto;
     background-color: white;
     border-radius: 20px;
+    box-shadow: 5px 5px 5px #F2F2F2;
 }
 
 .hebergementimg{
@@ -255,7 +256,7 @@ main{
 aside{
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 30%;
     background-color: #F2F2F2;
     border-radius: 20px;
 }
@@ -264,9 +265,15 @@ aside{
     display: flex;
     flex-direction: row;
     border-radius: 20px;
-    width: 100%;
+    width: 90%;
+    height: 144px;
+    margin-left: 5px;
     background-color: white;
     gap: 0;
+}
+
+.cartepop2{
+    width: 100%;
 }
 
 .poplist{
@@ -274,6 +281,7 @@ aside{
     flex-direction: column;
     gap: 20px;
     margin: 10px;
+    width: 100%;
 }
 
 .popimg{
@@ -286,6 +294,8 @@ aside{
 .popasset{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
 }
 
 .hebergementintro2{
@@ -293,5 +303,38 @@ aside{
 }
 
 .starcount2{
-    margin-top: 55px;
+    margin-top: 0px;
+}
+
+/*Activité a Marseille*/
+
+.activite{
+    display: flex;
+    flex-direction: column;
+}
+
+.actlist{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.carteact{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px #F2F2F2;
+    border-radius: 20px;
+    width: 90%;
+}
+
+.actimg{
+    width: 100%;
+    height: 380px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.actasset{
+    display: flex;
+    justify-content: left;
 }

@@ -28,6 +28,11 @@
 
     .poplist{
         flex-direction: row;
+        margin: auto auto 10px auto;
+        width: 95%;
     }
 
+    .cartepop{
+        width: 100%;
+    }
 }

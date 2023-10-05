@@ -6,6 +6,7 @@
 
     .logo{
         margin: auto;
+        margin-bottom: 20px;
     }
 
     .lienctn{
@@ -99,4 +100,6 @@
     .poplist{
         flex-direction: column;
     }
+
+    
 }
