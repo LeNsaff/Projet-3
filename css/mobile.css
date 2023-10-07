@@ -91,11 +91,11 @@
 
     .hebergementlist{
         flex-direction: column;
-
     }
 
     .cartehebergement{
         width: 90%;
+        margin: 0 auto 0 auto;
     }
 
     /*les plus populaires*/
